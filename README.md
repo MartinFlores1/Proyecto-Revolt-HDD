@@ -9,7 +9,7 @@ Proyecto Revolt - Ecomerce
 | APELLIDOS Y NOMBRES                       | CÓDIGO    |
 |-------------------------------------------|-----------|
 | Angel Abel Garcia Valladolid              | U22229946 |
-| Bequer Reynaldo Guzmán Támara             | U23238030 |
+|  Guzmán Támara Bequer Reynaldo            | U23238030 |
 | Ian Angelo Andrade Gamio                  | U22235933 |
 | Karina Rocio Arias Patiño                 | U23235234 |
 | Flores Carreon, Martin Francisco          | U21205693 |
