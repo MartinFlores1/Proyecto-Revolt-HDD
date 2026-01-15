@@ -1,0 +1,143 @@
+.second-carousel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.second-carousel-container .second-carousel-slide .card .card-body .card-product__title .h4, h4 {
+    font-size: 20px !important;
+}
+
+.second-carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    cursor: grab;
+}
+
+.second-carousel-track.dragging {
+    cursor: grabbing;
+    transition: none;
+}
+
+.second-carousel-slide {
+    flex: 0 0 25%;
+    padding: 0 15px;
+    min-width: 25%;
+    user-select: none;
+}
+
+.second-image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.second-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+.second-card-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    transform: translateY(100%);
+    transition: transform 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+}
+
+.second-card-content {
+    background-color: var(--color-azul);
+    padding: 5px;
+    color: white;
+    width: 60%;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.second-image-container:hover .second-card-overlay {
+    transform: translateY(0);
+}
+
+.second-carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(145, 145, 145, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.second-carousel-btn.second-prev {
+    left: 10px;
+}
+
+.second-carousel-btn.second-next {
+    right: 10px;
+}
+
+/* Pantallas grandes - 3 productos */
+@media screen and (max-width: 1200px) {
+    .second-carousel-slide {
+        flex: 0 0 33.333%;
+        min-width: 33.333%;
+        padding: 0 10px;
+    }
+
+    .second-carousel-container .second-carousel-slide .card .card-body .card-product__title .h4, h4 {
+        font-size: 18px !important;
+    }
+}
+
+/* Tablet - 2 productos */
+@media screen and (max-width: 992px) {
+    .second-carousel-slide {
+        flex: 0 0 50%;
+        min-width: 50%;
+        padding: 0 8px;
+    }
+
+    .second-carousel-container .second-carousel-slide .card .card-body .card-product__title .h4, h4 {
+        font-size: 16px !important;
+    }
+
+    .second-card-content {
+        width: 70%;
+        bottom: 30px;
+    }
+}
+
+/* Móvil - 1 producto */
+@media screen and (max-width: 768px) {
+    .second-carousel-slide {
+        flex: 0 0 100%;
+        min-width: 100%;
+        padding: 0 5px;
+    }
+
+    .second-carousel-container .second-carousel-slide .card .card-body .card-product__title .h4, h4 {
+        font-size: 14px !important;
+    }
+
+    .second-card-content {
+        width: 80%;
+        bottom: 20px;
+    }
+
+    .second-carousel-btn {
+        padding: 8px;
+    }
+}

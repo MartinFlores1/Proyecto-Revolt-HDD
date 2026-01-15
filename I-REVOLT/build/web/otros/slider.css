@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+:root {
+    --color-azul: #384aeb;
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-container h1 {
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.carousel-container p {
+    font-size: 14px;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    cursor: grab;
+}
+
+.carousel-track.dragging {
+    cursor: grabbing;
+    transition: none;
+}
+
+.carousel-slide {
+    flex: 0 0 33.333%;
+    padding: 0 5px;
+    min-width: 33.333%;
+    user-select: none;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+.card-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    transform: translateY(100%);
+    transition: transform 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+}
+
+.card-content {
+    background-color: var(--color-azul);
+    padding: 5px;
+    color: white;
+    width: 60%;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.image-container:hover .card-overlay {
+    transform: translateY(0);
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(145, 145, 145, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.carousel-btn.prev {
+    left: 10px;
+}
+
+.carousel-btn.next {
+    right: 10px;
+}
+
+/* Tablet - 2 columnas */
+@media screen and (max-width: 1024px) {
+    .carousel-slide {
+        flex: 0 0 50%;
+        min-width: 50%;
+    }
+
+    .carousel-container h1 {
+        font-size: 18px;
+    }
+
+    .carousel-container p {
+        font-size: 13px;
+    }
+
+    .card-content {
+        width: 70%;
+        bottom: 30px;
+    }
+}
+
+/* Móvil - 1 columna */
+@media screen and (max-width: 768px) {
+    .carousel-slide {
+        flex: 0 0 100%;
+        min-width: 100%;
+    }
+
+    .carousel-container h1 {
+        font-size: 16px;
+    }
+
+    .carousel-container p {
+        font-size: 12px;
+    }
+
+    .card-content {
+        width: 80%;
+        bottom: 20px;
+    }
+
+    .carousel-btn {
+        padding: 8px;
+    }
+}

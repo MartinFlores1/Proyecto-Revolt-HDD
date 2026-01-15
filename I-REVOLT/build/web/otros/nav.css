@@ -1,0 +1,279 @@
+.header_area {
+    position: fixed; 
+    width: 100%;
+    z-index: 9999;
+    transition: background 0.4s, all 0.3s linear;
+    box-shadow: 0px 10px 27px 3px rgba(221, 221, 221, 0.3);
+    top: 0; 
+}
+
+/* Contenedor principal del navbar */
+.header_area .navbar {
+    background: white;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 0;
+}
+.header_area .container {
+    max-width: 75%;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+/* Logo a la derecha en la primera columna */
+.navbar-brand {
+    justify-self: start;
+    padding-right: 2rem;
+}
+.navbar-brand img {
+    max-height: 50px;
+    width: auto;
+}
+
+.navbar-nav.mx-auto {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/* Menú derecho */
+.navbar-nav.ms-auto {
+    grid-column: 3;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    align-items: center; /* Centra verticalmente los elementos en el contenedor */
+}
+/* Wrapper del logo */
+.navbar-brand-wrapper {
+    flex: 1;
+    min-width: 160px;
+}
+
+/* Menú principal central */
+.main-nav {
+    justify-content: center;
+    flex: 1;
+}
+
+/* Menú de acciones (derecha) */
+.actions-nav {
+    flex: 0 0 auto; /* Asegura que el menú de acciones no se expanda */
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+/* Estilos de los items del nav */
+.header_area .navbar .nav-item {
+    margin-right: 15px;
+    position: relative;
+}
+
+.header_area .navbar .nav-link {
+    text-transform: capitalize;
+    color: #222;
+    transition: all 0.3s ease;
+    padding: 10px 15px;
+}
+
+/* Estilos del dropdown */
+.dropdown-menu {
+    display: block;
+    position: absolute;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 4px;
+    padding: 0.5rem 0;
+    margin-top: 15px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Mostrar dropdown en hover con animación */
+.nav-item.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    margin-top: 0;
+}
+
+.dropdown-item {
+    padding: 8px 20px;
+    color: #222;
+    transition: all 0.3s ease;
+    opacity: 0.9;
+    transform: translateX(-10px);
+}
+
+.nav-item.dropdown:hover .dropdown-item {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.dropdown-item:hover {
+    background-color: var(--color-azul);
+    color: #fff;
+    transform: translateX(5px);
+}
+
+/* Hover estados */
+.header_area .navbar .nav-link:hover,
+.header_area .navbar .nav-item.active .nav-link {
+    color: var(--color-azul);
+}
+
+/* Estilos de los botones de acción */
+.navbar-nav .btn-link i {
+    font-size: 1.2rem;
+    color: #222;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .btn-link i:hover {
+    color: var(--color-azul);
+}
+
+/* Responsive y Menú Móvil */
+@media (max-width: 991px) {
+    .navbar-brand-wrapper {
+        flex: 0 0 auto;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        position: relative;
+        z-index: 1100;
+    }
+
+    .navbar-toggler {
+        padding: 0.5rem;
+        transition: all 0.3s ease;
+    }
+
+    .navbar-toggler:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
+    /* Estilo del menú colapsado */
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        max-height: max-content;
+        width: 300px;
+        background-color: #fff;
+        padding: 20px;
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        z-index: 1050;
+        border-radius: 0 0 10px 10px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        opacity: 0;
+    }
+
+    /* Cuando el menú está abierto */
+    .navbar-collapse.show {
+        right: 0;
+        opacity: 1;
+    }
+
+    .main-nav {
+        margin: 10px 0;
+    }
+
+    .actions-nav {
+        justify-content: flex-start;
+        margin-top: 10px;
+        padding-top: 10px;
+        border-top: 1px solid #eee;
+    }
+
+    /* Ajustes del dropdown para móviles */
+    .dropdown-menu {
+        position: static;
+        float: none;
+        width: 100%;
+        margin: 0;
+        background-color: #f8f9fa;
+        border: none;
+        border-radius: 8px;
+        box-shadow: none;
+        padding: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        display: block !important;
+    }
+
+    .dropdown-menu.show {
+        max-height: 500px;
+        padding: 8px 0;
+        margin: 8px 0;
+    }
+
+    .dropdown-item {
+        padding: 8px 15px;
+        transform: none;
+        opacity: 0.8;
+        transition: all 0.3s ease;
+    }
+
+    .dropdown-item:hover {
+        opacity: 1;
+        background-color: var(--color-azul);
+        color: #fff;
+        transform: translateX(5px);
+    }
+
+    /* Animación del botón hamburguesa */
+    .navbar-toggler-icon {
+        transition: transform 0.3s ease;
+    }
+
+    .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+        transform: rotate(90deg);
+    }
+}
+
+
+.button {
+    display: inline-block;
+    border: 1px solid var(--color-azul); /* Color de borde por defecto */
+    border-radius: 30px;
+    color: #fff; /* Color de texto por defecto */
+    font-weight: 500;
+    padding: 12px 50px;
+    background: var(--color-azul); /* Color de fondo por defecto */
+    transition: all .4s ease;
+}
+
+
+.header_area .button {
+    display: inline-block;
+    border: 1px solid #EEEEEE; /* Color de borde por defecto */
+    border-radius: 30px;
+    color: black; /* Color de texto por defecto */
+    font-weight: 500;
+    padding: 8px 30px;
+    background: white; /* Color de fondo por defecto */
+    transition: all .4s ease;
+}
+
+.button-header:hover {
+    color: var(--color-azul); /* Cambia el color del texto a azul */
+    border-color: var(--color-azul); /* Cambia el color del borde a azul */
+}
+
+.button:hover {
+    color: black; /* Cambia el color del texto a azul */
+    background: rgba(255, 255, 255, 0); /* Color de fondo por defecto */
+    border-color: var(--color-azul); /* Cambia el color del borde a azul */
+}

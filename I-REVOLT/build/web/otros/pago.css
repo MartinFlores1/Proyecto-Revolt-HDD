@@ -1,0 +1,65 @@
+/* pago */
+
+
+#pago {
+    background-image:
+        var(--fondo-gradiente-nar);
+    background-position: center right, center right;
+    background-size: cover, cover;
+    color: var(--color-negro);
+    font-size: 13px;
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+#pago .contenedor {
+
+    background: transparent;
+    /* Asegúrate de que el fondo sea transparente si quieres que se vea el color de #pago */
+
+}
+
+#pago .container {
+
+    background: var(--color-blanco);
+    /* Color de fondo del contenedor */
+}
+
+.contenedor-n {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+#pago .button {
+    display: inline-block;
+    border: 1px solid #cccccc;
+    /* Color de borde por defecto */
+    border-radius: 30px;
+    color: black;
+    /* Color de texto por defecto */
+    font-weight: 500;
+    padding: 12px 50px;
+    background: white;
+    /* Color de fondo por defecto */
+    transition: all 0.4s ease;
+}
+
+#pago .button:hover {
+    color: var(--color-azul);
+    /* Cambia el color del texto a azul */
+    border-color: var(--color-azul);
+    /* Cambia el color del borde a azul */
+    background: white;
+    /* Asegúrate de que el fondo permanezca blanco */
+    font-weight: bold;
+    /* Hace que el texto esté en negrita */
+}
+
+/* Efecto más pronunciado al pasar el mouse */
+#pago .button:focus {
+    outline: none;
+    /* Sin contorno en el enfoque */
+    box-shadow: 0 0 5px rgba(56, 74, 235, 0.5);
+    /* Sombra azul para dar efecto */
+}

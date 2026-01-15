@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Revolt Shop - Confirmación</title>
+    <link rel="icon" href="img/Fevicon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" type="text/css"/>
+    <link href="otros/baner.css" rel="stylesheet" type="text/css"/>
+    <link href="otros/nav.css" rel="stylesheet" type="text/css"/>
+    <link href="otros/pago.css" rel="stylesheet" type="text/css"/>
+    <link href="otros/login.css" rel="stylesheet" type="text/css"/>
+
+<body>
+    <!--================ Menu Area Inicio=================-->
+    <header class="header_area">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" alt="REVOLT">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Menú Central -->
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Shop</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="category.html">Categorias</a></li>
+                                <li><a class="dropdown-item" href="single-product.html">Producto detalle</a></li>
+                                <li><a class="dropdown-item" href="checkout.html">Proceso Pago</a></li>
+                                <li><a class="dropdown-item" href="confirmation.html">Confirmation</a></li>
+                                <li><a class="dropdown-item" href="cart.html">Shopping Cart</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contacto</a>
+                        </li>
+                    </ul>
+
+                    <!-- Menú Derecho -->
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <button class="btn btn-link">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-link">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                         <a class="button button-header" href="vistas/login.jsp">Registrate!</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--================ Menu Area Fin =================-->
+    <header>
+        <div class="container">
+            <br><br><br>
+        </div>
+    </header>
+
+
+    <!-- ================ start banner area ================= -->
+    <section class="blog-banner-area" id="category">
+        <div class="container h-100">
+            <div class="blog-banner">
+                <div class="text-center">
+                    <h1>Order Confirmación</h1>
+                    <nav aria-label="breadcrumb" class="banner-breadcrumb">
+                        <ol class="breadcrumb">
+
+                            <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Order Confirmación</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================ end banner area ================= -->
+
+
+
+
+    <!--================Order Details Area =================-->
+   <section class="checkout_area section-margin--small">
+    <div class="container-f">
+        <!-- Formulario de datos -->
+        <form id="checkoutForm" class="form-container">
+            <h2 class="text-center mb-4">Información de Envío</h2>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <label for="name" class="form-label">Nombre Completo</label>
+                    <input type="text" id="name" class="form-control" placeholder="Ingrese su nombre completo" required />
+                </div>
+                <div class="col-md-6">
+                    <label for="address" class="form-label">Dirección</label>
+                    <input type="text" id="address" class="form-control" placeholder="Ingrese su dirección" required />
+                </div>
+                <div class="col-md-4">
+                    <label for="city" class="form-label">Ciudad</label>
+                    <input type="text" id="city" class="form-control" placeholder="Ciudad" required />
+                </div>
+                <div class="col-md-4">
+                    <label for="country" class="form-label">País</label>
+                    <input type="text" id="country" class="form-control" placeholder="País" required />
+                </div>
+                <div class="col-md-4">
+                    <label for="postalCode" class="form-label">Código Postal</label>
+                    <input type="text" id="postalCode" class="form-control" placeholder="Código Postal" required />
+                </div>
+                <div class="col-md-12">
+                    <label for="paymentMethod" class="form-label">Método de Pago</label>
+                    <select id="paymentMethod" class="form-select" required>
+                        <option value="">Seleccione</option>
+                        <option value="Tarjeta de Crédito">Tarjeta de Crédito</option>
+                        <option value="Transferencia Bancaria">Transferencia Bancaria</option>
+                        <option value="Efectivo">Efectivo</option>
+                    </select>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <button type="submit" class="btn btn-primary btn-lg">Finalizar Compra</button>
+            </div>
+        </form>
+
+        <!-- Resumen del pedido -->
+        <div id="orderSummary" style="display: none;">
+            <p class="text-center billing-alert">Gracias. Hemos recibido su pedido.</p>
+            <div class="order_details_table">
+                <h2>Detalles del Pedido</h2>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Producto</th>
+                                <th scope="col">Cantidad</th>
+                                <th scope="col">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody id="orderDetails"></tbody>
+                        <tfoot>
+                            <tr>
+                                <td><h4>Total</h4></td>
+                                <td></td>
+                                <td><h4 id="orderTotal"></h4></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <button id="editInfo" class="btn btn-secondary btn-lg">Editar Información</button>
+                <button id="confirmOrder" class="btn btn-success btn-lg">Confirmar y Proceder</button>
+            </div>
+        </div>
+    </div>
+</section>
+    <!--================End Order Details Area =================-->
+
+
+
+
+    <!--================ Pie de pagina Incio =================-->
+    <footer class="footer">
+        <div class="footer-area">
+            <div class="container-f">
+                <div class="row section_gap">
+
+                    <!-- Our Mission -->
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-footer-widget tp_widgets">
+                            <h4 class="footer_title large_title">Misión</h4>
+                            <p>Nos enfocamos en ofrecer ropa de calidad que combine estilo y comodidad, con una experiencia de compra rápida y fácil.</p>
+                            <p>Queremos que cada cliente encuentre prendas que lo representen, con un servicio personalizado que haga su compra en línea más agradable.</p>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h4>Paginas</h4>
+                            <ul class="footer-links">
+                                <li class="mb-2"><a href="#">Inicio</a></li>
+                                <li class="mb-2"><a href="#">Categorias</a></li>
+                                <li class="mb-2"><a href="#">Blog</a></li>
+                                <li class="mb-2"><a href="#">Productos</a></li>
+                                <li class="mb-2"><a href="#">Contactanos</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Gallery -->
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h4 class="footer_title">Galeria</h4>
+                            <div class="gallery-grid">
+                                <img src="img/gallery/r1.jpg" alt="gallery" class="img-fluid">
+                                <img src="img/gallery/r2.jpg" alt="gallery" class="img-fluid">
+                                <img src="img/gallery/r3.jpg" alt="gallery" class="img-fluid">
+                                <img src="img/gallery/r5.jpg" alt="gallery" class="img-fluid">
+                                <img src="img/gallery/r7.jpg" alt="gallery" class="img-fluid">
+                                <img src="img/gallery/r8.jpg" alt="gallery" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Us -->
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h4>Contactanos</h4>
+                            <div class="contact-info">
+                                <p class="d-flex align-items-center mb-3">
+                                    <i class="fas fa-location-dot"></i>
+                                    <span>
+                                        <strong class="d-block text-white">Dirección</strong>
+                                        123, Bulevar de Santa Mónica, San Isidro
+                                    </span>
+                                </p>
+
+                                <p class="d-flex align-items-center mb-3">
+                                    <i class="fas fa-phone"></i>
+                                    <span>
+                                        <strong class="d-block text-white">Telefonos</strong>
+                                       51 986 511 562
+                                    </span>
+                                </p>
+
+                                <p class="d-flex align-items-center mb-3">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>
+                                        <strong class="d-block text-white">Correo</strong>
+                                        support@revolt.com
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row d-flex">
+                    <p class="col-lg-12 footer-text text-center">
+                        &copy;
+                        <script>document.write(new Date().getFullYear());</script> Todos los derechos reservados
+                        <i class="fa fa-heart text-danger"></i> by
+                        <a href="https://www.linkedin.com/in/michaell-araujo-b88471234/" target="_blank"
+                            class="text-white text-decoration-none">Araujo</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--================ Pie de pagina  Fin  =================-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

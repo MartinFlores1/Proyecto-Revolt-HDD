@@ -1,0 +1,213 @@
+
+.main-content {
+    flex: 3;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.post {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.post-layout {
+    display: flex;
+    gap: 20px;
+}
+
+.meta {
+    flex: 1;
+    font-size: 14px;
+    color: #555;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrar verticalmente */
+    gap: 10px; /* Espaciado entre líneas */
+    padding: 10px; /* Separación con otras columnas */
+    background-color: #f0f0f0; /* Fondo gris claro */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+.meta p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Espaciado entre ícono y texto */
+}
+
+.post-content {
+    flex: 3;
+}
+
+.post-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+h2 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.sidebar .author img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.sidebar .newsletter {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination span {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Estilo para el sidebar del autor */
+.sidebar {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.author img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+.author h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+}
+
+.author-role {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.social-icons a {
+    font-size: 18px;
+    color: #555;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+.author-description {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.newsletter-section {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.newsletter-button {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-button:hover {
+    background-color: #0056b3;
+}
+
+.newsletter-section p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.newsletter-form input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.newsletter-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+    background-color: #0056b3;
+}
+
+.container-a .content-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.main-content {
+    flex: 3; /* Toma más espacio */
+}
+
+.sidebar {
+    flex: 1; /* Toma menos espacio */
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}

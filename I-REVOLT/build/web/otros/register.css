@@ -1,0 +1,50 @@
+.password-popup {
+    display: none;
+    position: absolute;
+    left: 0; /* Ajusta según la posición deseada */
+    top: 100%; /* Mostrar debajo del campo de contraseña */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.76);
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 250px;
+    z-index: 1000;
+    font-size: 12px;
+
+    transform: translate(-200px, 20px); /* Mover 20px hacia la izquierda y 20px hacia abajo */
+}
+
+
+
+.password-popup p {
+        font-weight: bold;
+}
+
+.password-popup ul {
+list-style-type: none;
+padding-left: 0; 
+}   
+
+/* Agrega los iconos para validación */
+.password-popup ul li.valid::before {
+    content: '✓ ';
+    color: black;
+    font-weight: bold;
+}
+
+.password-popup ul li.invalid::before {
+    content: '✗ ';
+   color:var( --color-gris-claro);
+    font-weight: bold;
+}
+
+/* Colores para los requisitos */
+.invalid {
+    color:var( --color-gris-claro);
+}
+
+.valid {
+    color: black;
+}
+

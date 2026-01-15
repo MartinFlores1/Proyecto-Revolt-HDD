@@ -1,0 +1,158 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header input {
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+
+.order {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.order-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-details {
+    width: 50%;
+}
+
+.order-products {
+    width: 45%;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.product button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.product button:hover {
+    background-color: #ddd;
+}
+
+
+.archive-btn {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    background-color: #bbb;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.archive-btn:hover {
+    background-color: #999;
+}
+
+
+
+
+
+
+
+
+#search {
+    margin: 20px;
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+}
+
+.product {
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-btn {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.dropdown-btn:focus {
+    outline: none;
+    border-color: #ffcc00;
+}
+
+.dropdown-icon {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background-color: #f0f0f0;
+}
+
+.dropdown-item.selected {
+    background-color: #ffcc00;
+    color: white;
+}

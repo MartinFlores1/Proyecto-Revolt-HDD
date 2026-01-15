@@ -1,0 +1,160 @@
+/* General Layout */
+.dashboard-layout {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navigation Header (Top Menu) */
+.navigation-header {
+    background-color: var(--card-color);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-items {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-items li {
+    padding: 0.3rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.menu-items li:hover {
+    background-color: var(--background-color);
+}
+
+/* Dropdown Select (Mes and Año) */
+.dropdown-select {
+    background-color: var(--card-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 0.3rem 1rem;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 150px;
+}
+
+.dropdown-select:hover {
+    background-color: var(--hover-background-color);
+}
+
+.dropdown-select:focus {
+    outline: none;
+    border-color: var(--focus-border-color);
+}
+
+/* Main Content */
+.content-area {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Overview Stats */
+.overview-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+
+/* Stats Grid (Quadrants) */
+.stats-grid {
+    display: grid;
+    grid-template-columns: 40% 60%; /* Primera columna con 40% de ancho y segunda columna con 60% */
+    grid-template-rows: repeat(2, auto); /* 2 filas automáticas */
+    gap: 1.5rem;
+    justify-content: center; /* Centra los cuadrantes dentro del contenedor */
+}
+
+/* Quadrant Styles */
+.quadrant {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* For Quadrants with More Columns */
+.grid-3-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+    gap: 1.5rem;
+}
+
+/* For Quadrant 2 (Split Columns) */
+.split-columns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+    gap: 1.5rem;
+}
+
+/* Stat Card Styles */
+.stat-card-0 {
+    background-color: var(--card-color);
+    border-radius: 15px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80px;
+}
+
+.stat-card-0 h2 {
+    font-size: 24px;
+}
+
+/* Stat Card Styles */
+.stat-card {
+    height: 300px;
+    background-color: var(--card-color);
+    border-radius: 15px;
+    padding: 0.8rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.stat-card h2 {
+    font-size: 20px;
+    padding-bottom: 0px;
+}
+.stat-card-0 h1 {
+    font-size: 26px;
+    padding-bottom: 0px;
+}
+
+.crx {
+    width: 100%;  /* Ocupa todo el ancho disponible */
+    height: 100vh;  /* Ocupa todo el alto de la ventana */
+    box-sizing: border-box;
+}
+
+/* Adjust spacing for menu items */
+.menu-items li {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Ajustar el tamaño de la fuente y eliminar el padding y margin */
+.overview-stats p {
+    font-size: 12px !important; /* Ajusta el tamaño de la fuente */
+    padding-top: 0px !important; /* Elimina el espacio superior */
+    padding-bottom: 0px !important; /* Elimina el espacio inferior */
+    margin-top: 0px !important; /* Elimina el margen superior */
+    margin-bottom: 0px !important; /* Elimina el margen inferior */
+}
+

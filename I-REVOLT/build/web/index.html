@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Revolt Shop - Home</title>
+        <link rel="icon" href="img/Fevicon.png" type="image/png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet" type="text/css"/>
+        <link href="otros/baner.css" rel="stylesheet" type="text/css"/>
+        <link href="otros/nav.css" rel="stylesheet" type="text/css"/>
+        <link href="otros/pago.css" rel="stylesheet" type="text/css"/>
+        <link href="otros/login.css" rel="stylesheet" type="text/css"/>
+        <link href="otros/slider.css" rel="stylesheet" type="text/css"/>
+        <link href="otros/slider-i.css" rel="stylesheet" type="text/css"/>
+    <body>
+        <!--================ Menu Area Inicio=================-->
+        <header class="header_area">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <!-- Logo -->
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/logo.png" alt="REVOLT">
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Menú Central -->
+                    <div class="collapse navbar-collapse" id="navbarContent">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Shop</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="category.html">Categorias</a></li>
+                                    <li><a class="dropdown-item" href="single-product.html">Producto detalle</a></li>
+                                    <li><a class="dropdown-item" href="checkout.html">Proceso Pago</a></li>
+                                    <li><a class="dropdown-item" href="confirmation.html">Confirmation</a></li>
+                                    <li><a class="dropdown-item" href="cart.html">Shopping Cart</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contacto</a>
+                            </li>
+                        </ul>
+
+                        <!-- Menú Derecho -->
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <button class="btn btn-link">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <a href="cart.html" class="btn btn-link position-relative">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <span id="cart-count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="button button-header" href="vistas/login.jsp">Registrate!</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!--================ Menu Area Fin =================-->
+        <header>
+            <div class="container">
+                <br><br><br>
+            </div>
+        </header>
+
+        <!--================ Baner Inicio =================-->
+        <section class="hero-banner">
+            <div class="container">
+                <div class="row no-gutters align-items-center pt-60px">
+                    <div class="col-5 d-none d-sm-block">
+                        <div class="hero-banner__img">
+                            <img class="img-fluid" src="img/home/hero-banner.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-7 col-lg-6 offset-lg-1 pl-4 pl-md-5 pl-lg-0">
+                        <div class="hero-banner__content">
+                            <h4>Comprar es divertido</h4>
+                            <h1>La creatividad y el estilo se encuentran</h1>
+                            <p>Sabemos cómo una prenda puede transformar tu look y hacer que te sientas único.</p>
+                            <a class="button button-hero" href="#">Navegar Ahora</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================ Baner Fin =================-->
+
+
+        <!--================ CRUD Fin =================-->
+        <section id="anciox container-b" style="text-align: center;">
+            <a class="btx btx-header btn-primary" href="vistas/index.jsp">OficinasControlle</a>
+            <a class="btx btx-header btn-primary" href="vistas/bd.jsp">Crud BD</a>
+            <a class="btx btx-header btn-primary" href="vistas/dashboard.jsp">Dashboard</a>
+                    <a class="btx btx-header btn-primary" href="vistas/cuenta.jsp">Cuenta</a>
+                         <a class="btx btx-header btn-primary" href="vistas/hCompras.jsp">Historial</a>
+        </section>
+
+        <!--================ CRUD Fin =================-->
+
+
+
+        <!--================ Carousel Inicio =================-->
+        <section>
+            <div class="carousel-container">
+                <div class="carousel-track">
+                    <div class="carousel-slide">
+                        <div class="image-container">
+                            <img src="img/home/hero-slide1.png" alt="Calzados">
+                            <div class="card-overlay">
+                                <div class="card-content">
+                                    <h1>Calzados</h1>
+                                    <p>Accessories Item</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="image-container">
+                            <img src="img/home/hero-vestido.png" alt="Vestidos">
+                            <div class="card-overlay">
+                                <div class="card-content">
+                                    <h1>Vestidos</h1>
+                                    <p>Accessories Item</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="image-container">
+                            <img src="img/home/hero-camisa.png" alt="Camisas">
+                            <div class="card-overlay">
+                                <div class="card-content">
+                                    <h1>Camisas</h1>
+                                    <p>Accessories Item</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn prev">❮</button>
+                <button class="carousel-btn next">❯</button>
+            </div>
+        </section>
+        <!--================ Carousel Fin =================-->
+
+
+        <!-- ================ Popular producto Inicio ================= -->
+        <section class="py-5">
+            <div class="container-f">
+                <div class="section-intro pb-60px">
+                    <p>Artículo popular en el mercado</p>
+                    <h2>Producto de <span class="section-intro__style">tendencia</span></h2>
+                </div>
+                <!-- Grid de productos -->
+                <div class="row" id="productsGrid">
+                    <!-- Los productos se generarán dinámicamente -->
+                </div>                    
+
+            </div>
+        </section>
+        <!--================ Popular producto Inicio  =================-->
+
+
+        <!-- ================ Ofertas Inicio ================= -->
+        <section class="offer" id="parallax-1" data-anchor-target="#parallax-1"
+                 data-300-top="background-position: 20px 30px" data-top-bottom="background-position: 0 20px">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5">
+                        <div class="offer__content text-center">
+                            <h3>Hasta 50% de</h3>
+                            <h4>Venta de invierno</h4>
+                            <p>Mejores productos</p>
+                            <a class="button button--active mt-3 mt-xl-4" href="#">Comprar ahora</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ================ Ofertas Fin ================= -->
+
+
+        <section class="container-f">
+            <div class="section-intro pb-60px">
+                <p>Artículo popular en el mercado</p>
+                <h2>Los más <span class="section-intro__style">vendidos99</span></h2>
+            </div>
+            <div class="second-carousel-container">
+                <!-- El contenido se cargará dinámicamente -->
+            </div>
+        </section>
+
+        <!--================ Pie de pagina Incio =================-->
+        <footer class="footer">
+            <div class="footer-area">
+                <div class="container-f">
+                    <div class="row">
+
+                        <!-- Our Mission -->
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="single-footer-widget tp_widgets">
+                                <h4 class="footer_title large_title">Misión</h4>
+                                <p>Nos enfocamos en ofrecer ropa de calidad que combine estilo y comodidad, con una experiencia de compra rápida y fácil.</p>
+                                <p>Queremos que cada cliente encuentre prendas que lo representen, con un servicio personalizado que haga su compra en línea más agradable.</p>
+                            </div>
+                        </div>
+
+                        <!-- Quick Links -->
+                        <div class="col-lg-2 col-md-6 col-sm-6">
+                            <div class="single-footer-widget">
+                                <h4>Paginas</h4>
+                                <ul class="footer-links">
+                                    <li class="mb-2"><a href="#">Inicio</a></li>
+                                    <li class="mb-2"><a href="#">Categorias</a></li>
+                                    <li class="mb-2"><a href="#">Blog</a></li>
+                                    <li class="mb-2"><a href="#">Productos</a></li>
+                                    <li class="mb-2"><a href="#">Contactanos</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Gallery -->
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="single-footer-widget">
+                                <h4 class="footer_title">Galeria</h4>
+                                <div class="gallery-grid">
+                                    <img src="img/gallery/r1.jpg" alt="gallery" class="img-fluid">
+                                    <img src="img/gallery/r2.jpg" alt="gallery" class="img-fluid">
+                                    <img src="img/gallery/r3.jpg" alt="gallery" class="img-fluid">
+                                    <img src="img/gallery/r5.jpg" alt="gallery" class="img-fluid">
+                                    <img src="img/gallery/r7.jpg" alt="gallery" class="img-fluid">
+                                    <img src="img/gallery/r8.jpg" alt="gallery" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Contact Us -->
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="single-footer-widget">
+                                <h4>Contactanos</h4>
+                                <div class="contact-info">
+                                    <p class="d-flex align-items-center mb-3">
+                                        <i class="fas fa-location-dot"></i>
+                                        <span>
+                                            <strong class="d-block text-white">Dirección</strong>
+                                            123, Bulevar de Santa Mónica, San Isidro
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center mb-3">
+                                        <i class="fas fa-phone"></i>
+                                        <span>
+                                            <strong class="d-block text-white">Telefonos</strong>
+                                            51 986 511 562
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center mb-3">
+                                        <i class="fas fa-envelope"></i>
+                                        <span>
+                                            <strong class="d-block text-white">Correo</strong>
+                                            support@revolt.com
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row d-flex">
+                        <p class="col-lg-12 footer-text text-center">
+                            &copy;
+                            <script>document.write(new Date().getFullYear());</script> Todos los derechos reservados
+                            <i class="fa fa-heart text-danger"></i> by
+                            <a href="https://www.linkedin.com/in/michaell-araujo-b88471234/" target="_blank"
+                               class="text-white text-decoration-none">Araujo</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+        <!-- Estilo de carrusel -->
+        <script src="js/slider.js" type="text/javascript"></script>
+      
+        <script src="js/category_in.js" type="text/javascript"></script>
+        <script src="js/category_car.js" type="text/javascript"></script>
+    </body>
+
+</html>
