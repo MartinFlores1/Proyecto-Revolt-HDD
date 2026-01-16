@@ -4,7 +4,7 @@
 
 ![Logo REVOLT](logo.png "Logo REVOLT")
 
-## Integrantes
+## Integran tes
 
 | APELLIDOS Y NOMBRES                       | CÓDIGO    |
 |-------------------------------------------|-----------|
