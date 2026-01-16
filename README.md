@@ -1,5 +1,5 @@
 # Proyecto-Revolt-HDD
-Proyecto Revolt - Ecomerce 
+
 #### Proyecto Tienda Web de ropa Online - REVOLT
 
 ![Logo REVOLT](logo.png "Logo REVOLT")
