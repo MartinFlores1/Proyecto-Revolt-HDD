@@ -8,8 +8,8 @@
 
 | APELLIDOS Y NOMBRES                       | CÓDIGO    |
 |-------------------------------------------|-----------|
-| Angel Abel Garcia Valladolid              | U22229946 |
-|  Guzmán Támara Bequer Reynaldo            | U23238030 |
+| Angel Abel García Valladolid              | U22229946 |
+| Guzmán Támara Bequer Reynaldo            | U23238030 |
 | Ian Angelo Andrade Gamio                  | U22235933 |
 | Karina Rocio Arias Patiño                 | U23235234 |
 | Flores Carreon, Martin Francisco          | U21205693 |
