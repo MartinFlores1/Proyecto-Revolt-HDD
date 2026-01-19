@@ -4,7 +4,11 @@
 
 ![Logo REVOLT](logo.png "Logo REVOLT")
 
+<<<<<<< HEAD
 ## Integran tes
+=======
+## Inte grantes
+>>>>>>> origin/ianandrade
 
 | APELLIDOS Y NOMBRES                       | CÓDIGO    |
 |-------------------------------------------|-----------|
