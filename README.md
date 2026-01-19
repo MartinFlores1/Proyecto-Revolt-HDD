@@ -1,14 +1,8 @@
 # Proyecto-Revolt-HDD
 
-#### Proyecto Tienda Web de ropa Online - REVOLT
-
 ![Logo REVOLT](logo.png "Logo REVOLT")
 
-<<<<<<< HEAD
-## Integran tes
-=======
-## Inte grantes
->>>>>>> origin/ianandrade
+## Integrantes
 
 | APELLIDOS Y NOMBRES                       | CÓDIGO    |
 |-------------------------------------------|-----------|
