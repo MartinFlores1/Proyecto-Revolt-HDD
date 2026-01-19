@@ -7,7 +7,7 @@
 | APELLIDOS Y NOMBRES                       | CÓDIGO    |
 |-------------------------------------------|-----------|
 | Angel Abel García Valladolid              | U22229946 |
-| Guzmán Támara Bequer Reynaldo            | U23238030 |
+| Guzmán Támara Bequer Reynaldo             | U23238030 |
 | Ian Angelo Andrade Gamio                  | U22235933 |
 | Karina Rocio Arias Patiño                 | U23235234 |
 | Flores Carreon, Martin Francisco          | U21205693 |
@@ -79,7 +79,7 @@ Incluye: Catálogo, carrito, autenticación, pagos, pedidos y reportes básicos.
 ## 💡 Justificación del Proyecto
 <br>
 <div style="text-align: justify;">
-La implementación de esta tienda en línea de ropa responde a la necesidad estratégica de digitalizar el canal de ventas, ampliando la cobertura de mercado 24/7 y reduciendo costos operativos mediante automatización de procesos. Técnicamente aplica herramientas modernas (Git, CI/CD, Docker) y metodología Scrum conforme al curso "Herramientas de Desarrollo" UTP 2026, generando evidencias académicas alineadas con la rúbrica de evaluación (APF1-APF4). La arquitectura escalable posiciona a la organización como referente tecnológico en el retail peruano, resolviendo problemáticas inmediatas y preparando futuras expansiones. 📚🏢
+La implementación de esta tienda en línea de ropa responde a la necesidad estratégica de digitalizar el canal de ventas, ampliando la cobertura de mercado 24/7 y reduciendo costos operativos mediante automatización de procesos. Técnicamente aplica herramientas modernas (Git) y metodología Scrum conforme al curso "Herramientas de Desarrollo" UTP 2026, generando evidencias académicas alineadas con la rúbrica de evaluación (APF1-APF4). La arquitectura escalable posiciona a la organización como referente tecnológico en el retail peruano, resolviendo problemáticas inmediatas y preparando futuras expansiones. 📚🏢
 </div>
 
 
