@@ -1,8 +1,7 @@
 ## 📋 PR - Sprint 1
 
 **Cambios:**
-- [ ] Estructura de carpetas
-- [ ] JAR/SQL ordenados
-- [ ] Docs actualizados
+- [x] Estructura de carpetas
+- [x] JAR/SQL ordenados
+- [x] Docs actualizados
 
-Closes #ID
