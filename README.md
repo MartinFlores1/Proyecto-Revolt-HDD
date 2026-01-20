@@ -88,4 +88,5 @@ La implementación de esta tienda en línea de ropa responde a la necesidad estr
 |ARCHIVO                |URL                                                                                  |
 |-----------------------|-------------------------------------------------------------------------------------|
 | Formato Proyecto      | [Word Online](https://utpedupe-my.sharepoint.com/:w:/g/personal/u21205693_utp_edu_pe/IQCdOTOQRNv2Sry0zX2bhzx_AdtegYEJdcfplFLv_fB_4hQ?e=CUjlnf) |
+| Presentación Proyecto | [PPT Online](https://utpedupe-my.sharepoint.com/:p:/g/personal/u21205693_utp_edu_pe/IQA08l3HQDMMQJRuLzLxI9xaATYY_e5bmvME_UIfADED6ko?e=QuyLut) |
 ..
