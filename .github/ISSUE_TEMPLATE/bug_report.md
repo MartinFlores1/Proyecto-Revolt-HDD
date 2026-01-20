@@ -1,4 +1,5 @@
-## 🐛 BUG JAR REVOLT
-
-**Error:**
-**Comando:** java -jar src/revolt-app/revolt.jar
+## 🐛 Bug
+**Qué pasó:**
+**Pasos:**
+**Resultado esperado:**
+**Evidencia:**
