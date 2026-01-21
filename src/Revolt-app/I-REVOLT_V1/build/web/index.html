@@ -17,6 +17,7 @@
         <link href="otros/login.css" rel="stylesheet" type="text/css"/>
         <link href="otros/slider.css" rel="stylesheet" type="text/css"/>
         <link href="otros/slider-i.css" rel="stylesheet" type="text/css"/>
+    </head>
     <body>
         <!--================ Menu Area Inicio=================-->
         <header class="header_area">
@@ -58,12 +59,12 @@
                         <!-- Menú Derecho -->
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <button class="btn btn-link">
+                                <button class="btn btn-link" aria-label="Buscar">
                                     <i class="fa-solid fa-magnifying-glass"></i>
                                 </button>
                             </li>
                             <li class="nav-item">
-                                <a href="cart.html" class="btn btn-link position-relative">
+                                <a href="cart.html" class="btn btn-link position-relative" aria-label="Carrito de compras">
                                     <i class="fa-solid fa-cart-shopping"></i>
                                     <span id="cart-count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
                                 </a>
@@ -77,11 +78,6 @@
             </nav>
         </header>
         <!--================ Menu Area Fin =================-->
-        <header>
-            <div class="container">
-                <br><br><br>
-            </div>
-        </header>
 
         <!--================ Baner Inicio =================-->
         <section class="hero-banner">
@@ -106,16 +102,15 @@
         <!--================ Baner Fin =================-->
 
 
-        <!--================ CRUD Fin =================-->
-        <section id="anciox container-b" style="text-align: center;">
-            <a class="btx btx-header btn-primary" href="vistas/index.jsp">OficinasControlle</a>
-            <a class="btx btx-header btn-primary" href="vistas/bd.jsp">Crud BD</a>
+        <!--================ Administración Inicio =================-->
+        <nav class="container-b" style="text-align: center; padding: 2rem 0;">
+            <a class="btx btx-header btn-primary" href="vistas/index.jsp">Oficinas Controller</a>
+            <a class="btx btx-header btn-primary" href="vistas/bd.jsp">CRUD BD</a>
             <a class="btx btx-header btn-primary" href="vistas/dashboard.jsp">Dashboard</a>
-                    <a class="btx btx-header btn-primary" href="vistas/cuenta.jsp">Cuenta</a>
-                         <a class="btx btx-header btn-primary" href="vistas/hCompras.jsp">Historial</a>
-        </section>
-
-        <!--================ CRUD Fin =================-->
+            <a class="btx btx-header btn-primary" href="vistas/cuenta.jsp">Cuenta</a>
+            <a class="btx btx-header btn-primary" href="vistas/hCompras.jsp">Historial</a>
+        </nav>
+        <!--================ Administración Fin =================-->
 
 
 
@@ -157,8 +152,8 @@
                         </div>
                     </div>
                 </div>
-                <button class="carousel-btn prev">❮</button>
-                <button class="carousel-btn next">❯</button>
+                <button class="carousel-btn prev" aria-label="Anterior">❮</button>
+                <button class="carousel-btn next" aria-label="Siguiente">❯</button>
             </div>
         </section>
         <!--================ Carousel Fin =================-->
@@ -203,7 +198,7 @@
         <section class="container-f">
             <div class="section-intro pb-60px">
                 <p>Artículo popular en el mercado</p>
-                <h2>Los más <span class="section-intro__style">vendidos99</span></h2>
+                <h2>Los más <span class="section-intro__style">vendidos</span></h2>
             </div>
             <div class="second-carousel-container">
                 <!-- El contenido se cargará dinámicamente -->
