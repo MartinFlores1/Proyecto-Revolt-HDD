@@ -54,5 +54,53 @@ Se configuró un **Ruleset** en GitHub para obligar Pull Requests antes de hacer
 
 ---
 
+## ✅ 7) Mejoras de Calidad en index.html (Angel García)
+
+### 📸 Evidencias
+- Link al commit: `[Pendiente tras push]`
+- Link al PR: `[Pendiente de creación]`
+- Archivo modificado: `src/Revolt-app/I-REVOLT_V1/web/index.html`
+- Total de líneas modificadas: 7 cambios puntuales
+- Riesgo de regresión: 0%
+
+#### Capturas de Pantalla
+
+**1. Botón de Búsqueda - Aria Label:**
+![Mejora botón búsqueda](img/mejora-01-boton-busqueda.png)
+
+**2. Carrito de Compras - Aria Label:**
+![Mejora carrito](img/mejora-02-carrito-aria.png)
+
+**3. Sección Administrativa - Antes:**
+![Navegación admin antes](img/mejora-03-nav-admin-antes.png)
+
+**4. Sección Administrativa - Después:**
+![Navegación admin después](img/mejora-04-nav-admin-despues.png)
+
+**5. Botones del Carrusel - Aria Labels:**
+![Botones carrusel](img/mejora-05-carrusel-botones.png)
+
+**6. Corrección Tipográfica:**
+![Corrección typo](img/mejora-06-typo-vendidos.png)
+
+### ✅ Checklist de Calidad
+- [x] Código HTML válido (W3C)
+- [x] Etiquetas correctamente cerradas
+- [x] ARIA labels en elementos interactivos
+- [x] Semántica HTML correcta
+- [x] Sin errores tipográficos
+- [x] Comentarios claros y descriptivos
+- [x] Espaciado consistente (CSS)
+- [x] 0% de regresión funcional
+
+### 🎯 Beneficios
+- 🏆 Mejor calidad de código
+- ♿ Mayor accesibilidad web
+- 🔍 Mejor posicionamiento SEO
+- 🛠️ Código más mantenible
+- 📱 Compatible con tecnologías asistivas
+
+---
+
 ## ✅ Conclusión
 Sprint 1 completado: el repositorio está listo para trabajo en equipo con PR, reglas, plantillas y documentación.
