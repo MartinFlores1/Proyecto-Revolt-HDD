@@ -76,7 +76,7 @@ git pull origin main
 ```bash
 git checkout -b ramaAngelGarcia
 ```
-![Evidencia checkout rama](img/mejora-01-boton-busqueda.png)
+![Evidencia checkout rama](img/EvidenciaCrearRama.png)
 
 #### 3️⃣ Análisis realizado - Mejoras identificadas (7 puntos)
 
