@@ -201,6 +201,3 @@ git push origin ramaAngelGarcia
 - 📱 Compatible con tecnologías asistivas
 
 ---
-
-## ✅ Conclusión
-Sprint 1 completado: el repositorio está listo para trabajo en equipo con PR, reglas, plantillas y documentación.
