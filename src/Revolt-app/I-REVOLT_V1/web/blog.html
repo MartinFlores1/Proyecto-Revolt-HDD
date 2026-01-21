@@ -7,162 +7,172 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Revolt Shop - Blog</title>
     <link rel="icon" href="img/Fevicon.png" type="image/png">
-    
+
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    
-    <link href="styles.css" rel="stylesheet" type="text/css"/>
-    <link href="otros/baner.css" rel="stylesheet" type="text/css"/>
-    <link href="otros/nav.css" rel="stylesheet" type="text/css"/>
-    <link href="otros/blog.css" rel="stylesheet" type="text/css"/>
+
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link href="otros/baner.css" rel="stylesheet" type="text/css" />
+    <link href="otros/nav.css" rel="stylesheet" type="text/css" />
+    <link href="otros/blog.css" rel="stylesheet" type="text/css" />
 </head>
-    <body>
-        <!--================ Menu Area Inicio=================-->
-        <header class="header_area">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container">
-                    <!-- Logo -->
-                    <a class="navbar-brand" href="index.html">
-                        <img src="img/logo.png" alt="REVOLT">
-                    </a>
 
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+<body>
+    <!--================ Menu Area Inicio=================-->
+    <header class="header_area">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" alt="REVOLT">
+                </a>
 
-                    <!-- Menú Central -->
-                    <div class="collapse navbar-collapse" id="navbarContent">
-                        <ul class="navbar-nav mx-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Shop</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="category.html">Categorias</a></li>
-                                    <li><a class="dropdown-item" href="single-product.html">Producto detalle</a></li>
-                                    <li><a class="dropdown-item" href="checkout.html">Proceso Pago</a></li>
-                                    <li><a class="dropdown-item" href="confirmation.html">Confirmation</a></li>
-                                    <li><a class="dropdown-item" href="cart.html">Shopping Cart</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="blog.html">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contacto</a>
-                            </li>
-                        </ul>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                        
-                        <!-- Menú Derecho -->
-                        <ul class="navbar-nav ms-auto">
+                <!-- Menú Central -->
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Shop</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="category.html">Categorias</a></li>
+                                <li><a class="dropdown-item" href="single-product.html">Producto detalle</a></li>
+                                <li><a class="dropdown-item" href="checkout.html">Proceso Pago</a></li>
+                                <li><a class="dropdown-item" href="confirmation.html">Confirmation</a></li>
+                                <li><a class="dropdown-item" href="cart.html">Shopping Cart</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contacto</a>
+                        </li>
+                    </ul>
+
+
+                    <!-- Menú Derecho -->
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                             <button class="btn btn-link" aria-label="Buscar productos">
                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </button>
                         </li>
                         <li class="nav-item">
-                            <a href="cart.html" class="btn btn-link position-relative" aria-label="Ver carrito de compras">
+                            <a href="cart.html" class="btn btn-link position-relative"
+                                aria-label="Ver carrito de compras">
                                 <i class="fa-solid fa-cart-shopping"></i>
-                                <span id="cart-count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
+                                <span id="cart-count"
+                                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
                             </a>
+ 
+                            
                         </li>
                         <li class="nav-item">
                             <a class="button button-header" href="vistas/login.jsp">¡Regístrate!</a>
                         </li>
                     </ul>
 
-                    </div>
-                </div>
-            </nav>
-        </header>
-
-        <main class="py-5"></main>
-
-
-        <!-- ================ start banner area ================= -->	
-        <section class="blog-banner-area" id="category">
-            <div class="container h-100">
-                <div class="blog-banner">
-                    <div class="text-center">
-                        <h1>Nuestro Blog</h1>
-                        <nav aria-label="breadcrumb" class="banner-breadcrumb">
-                            <ol class="breadcrumb">
-
-                                <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Nuestro Blog</li>
-                            </ol>
-                        </nav>
-                    </div>
                 </div>
             </div>
-        </section>
-        <!-- ================ end banner area ================= -->
+        </nav>
+    </header>
 
-        <!-- ================ Popular producto Inicio ================= -->
- <section class="container my-5">
-            <div class="row">
-                <div class="col-lg-8">
-                    <article class="card mb-4 border-0 shadow-sm">
-                        <div class="row g-0">
-                            <div class="col-md-4 p-3 meta text-muted small">
-                                <p><i class="fas fa-calendar-alt me-2"></i> 12 Dic, 2017</p>
-                                <p><i class="fas fa-eye me-2"></i> 1.2M visitas</p>
-                                <p><i class="fas fa-comments me-2"></i> 06 Comentarios</p>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <img src="img/post/m-blog-3.jpg" alt="Telescopio profesional" class="img-fluid rounded mb-3">
-                                    <h2 class="card-title h4">El glosario de telescopios</h2>
-                                    <p class="card-text text-muted">Análisis profundo sobre materiales de estudio y campamentos de entrenamiento...</p>
-                                </div>
+    <main class="py-5"></main>
+
+
+    <!-- ================ start banner area ================= -->
+    <section class="blog-banner-area" id="category">
+        <div class="container h-100">
+            <div class="blog-banner">
+                <div class="text-center">
+                    <h1>Nuestro Blog</h1>
+                    <nav aria-label="breadcrumb" class="banner-breadcrumb">
+                        <ol class="breadcrumb">
+
+                            <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Nuestro Blog</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================ end banner area ================= -->
+
+    <!-- ================ Popular producto Inicio ================= -->
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-lg-8">
+                <article class="card mb-4 border-0 shadow-sm">
+                    <div class="row g-0">
+                        <div class="col-md-4 p-3 meta text-muted small">
+                            <p><i class="fas fa-calendar-alt me-2"></i> 12 Dic, 2017</p>
+                            <p><i class="fas fa-eye me-2"></i> 1.2M visitas</p>
+                            <p><i class="fas fa-comments me-2"></i> 06 Comentarios</p>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <img src="img/post/m-blog-3.jpg" alt="Telescopio profesional"
+                                    class="img-fluid rounded mb-3">
+                                <h2 class="card-title h4">El glosario de telescopios</h2>
+                                <p class="card-text text-muted">Análisis profundo sobre materiales de estudio y
+                                    campamentos de entrenamiento...</p>
                             </div>
                         </div>
-                    </article>
+                    </div>
+                </article>
 
-                    <article class="card mb-4 border-0 shadow-sm">
-                        <div class="row g-0">
-                            <div class="col-md-4 p-3 meta text-muted small">
-                                <p><i class="fas fa-calendar-alt me-2"></i> 12 Dic, 2017</p>
-                                <p><i class="fas fa-eye me-2"></i> 1.2M visitas</p>
-                                <p><i class="fas fa-comments me-2"></i> 06 Comentarios</p>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <img src="img/post/m-blog-4.jpg" alt="Cielo estrellado" class="img-fluid rounded mb-3">
-                                    <h2 class="card-title h4">El cielo nocturno</h2>
-                                    <p class="card-text text-muted">MCSE boot camps have its supporters and its detractors...</p>
-                                </div>
+                <article class="card mb-4 border-0 shadow-sm">
+                    <div class="row g-0">
+                        <div class="col-md-4 p-3 meta text-muted small">
+                            <p><i class="fas fa-calendar-alt me-2"></i> 12 Dic, 2017</p>
+                            <p><i class="fas fa-eye me-2"></i> 1.2M visitas</p>
+                            <p><i class="fas fa-comments me-2"></i> 06 Comentarios</p>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <img src="img/post/m-blog-4.jpg" alt="Cielo estrellado" class="img-fluid rounded mb-3">
+                                <h2 class="card-title h4">El cielo nocturno</h2>
+                                <p class="card-text text-muted">MCSE boot camps have its supporters and its
+                                    detractors...</p>
                             </div>
                         </div>
-                    </article>
+                    </div>
+                </article>
+            </div>
+
+            <aside class="col-lg-4">
+                <div class="card border-0 shadow-sm p-4 text-center mb-4">
+                    <img src="img/post/author.png" alt="Charlie Barber" class="rounded-circle mx-auto mb-3"
+                        style="width: 100px;">
+                    <h3>Charlie Barber</h3>
+                    <p class="text-primary small">Escritor Senior de Blogs</p>
+                    <div class="d-flex justify-content-center gap-3 mb-3">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                    <p class="small text-muted">Especialista en divulgación tecnológica y formación profesional.</p>
                 </div>
 
-                <aside class="col-lg-4">
-                    <div class="card border-0 shadow-sm p-4 text-center mb-4">
-                        <img src="img/post/author.png" alt="Charlie Barber" class="rounded-circle mx-auto mb-3" style="width: 100px;">
-                        <h3>Charlie Barber</h3>
-                        <p class="text-primary small">Escritor Senior de Blogs</p>
-                        <div class="d-flex justify-content-center gap-3 mb-3">
-                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                        </div>
-                        <p class="small text-muted">Especialista en divulgación tecnológica y formación profesional.</p>
+                <div class="card border-0 shadow-sm p-4 bg-light">
+                    <h5 class="mb-3">Hoja Informativa</h5>
+                    <p class="small text-muted">Recibe las últimas noticias directamente.</p>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Tu correo"
+                            aria-label="Correo electrónico">
+                        <button class="btn btn-primary" type="button">Suscribirse</button>
                     </div>
-
-                    <div class="card border-0 shadow-sm p-4 bg-light">
-                        <h5 class="mb-3">Hoja Informativa</h5>
-                        <p class="small text-muted">Recibe las últimas noticias directamente.</p>
-                        <div class="input-group">
-                            <input type="email" class="form-control" placeholder="Tu correo" aria-label="Correo electrónico">
-                            <button class="btn btn-primary" type="button">Suscribirse</button>
-                        </div>
-                    </div>
-                </aside>
-            </div>
-        </section>
+                </div>
+            </aside>
+        </div>
+    </section>
 
 
 
@@ -189,8 +199,10 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-footer-widget tp_widgets">
                             <h4 class="footer_title large_title">Misión</h4>
-                            <p>Nos enfocamos en ofrecer ropa de calidad que combine estilo y comodidad, con una experiencia de compra rápida y fácil.</p>
-                            <p>Queremos que cada cliente encuentre prendas que lo representen, con un servicio personalizado que haga su compra en línea más agradable.</p>
+                            <p>Nos enfocamos en ofrecer ropa de calidad que combine estilo y comodidad, con una
+                                experiencia de compra rápida y fácil.</p>
+                            <p>Queremos que cada cliente encuentre prendas que lo representen, con un servicio
+                                personalizado que haga su compra en línea más agradable.</p>
                         </div>
                     </div>
 
@@ -267,7 +279,7 @@
                         <script>document.write(new Date().getFullYear());</script> Todos los derechos reservados
                         <i class="fa fa-heart text-danger"></i> by
                         <a href="https://www.linkedin.com/in/michaell-araujo-b88471234/" target="_blank"
-                           class="text-white text-decoration-none">Araujo</a>
+                            class="text-white text-decoration-none">Araujo</a>
                     </p>
                 </div>
             </div>
