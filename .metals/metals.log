@@ -1,0 +1,60 @@
+2026.01.15 21:58:14 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Usuario\Documents\GitHub\Proyecto-Revolt-HDD\.metals\lsp.trace.json or C:\Users\Usuario\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2026.01.15 21:58:19 INFO  logging to files C:\Users\Usuario\Documents\GitHub\Proyecto-Revolt-HDD\.metals\metals.log
+2026.01.15 21:58:19 INFO  Started: Metals version 1.6.4 in folders 'C:\Users\Usuario\Documents\GitHub\Proyecto-Revolt-HDD' for client Visual Studio Code 1.108.0.
+2026.01.15 21:58:22 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.01.15 21:58:24 WARN  no build tool detected in workspace 'C:\Users\Usuario\Documents\GitHub\Proyecto-Revolt-HDD'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.01.15 21:58:24 WARN  Build server is not auto-connectable.
+2026.01.15 21:58:24 INFO  restarted 0 presentation compilers
+ene. 15, 2026 9:58:30 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+ene. 15, 2026 9:58:32 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+2026.01.15 22:06:21 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Proyecto-Revolt-HDD\I-REVOLT\src\java\conexion\Conexion.java. Using fallback presentation compiler.
+2026.01.15 22:06:21 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Proyecto-Revolt-HDD\I-REVOLT\src\java\conexion\Conexion.java
+2026.01.15 22:06:23 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Proyecto-Revolt-HDD\I-REVOLT\src\java\conexion\Conexion.java. Using fallback presentation compiler.
+ene. 15, 2026 10:06:23 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 3
+2026.01.15 22:06:23 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Proyecto-Revolt-HDD\I-REVOLT\src\java\conexion\Conexion.java. Using fallback presentation compiler.
+2026.01.15 22:06:26 INFO  time: code lens generation in 1.75s
+2026.01.15 22:06:26 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Proyecto-Revolt-HDD\I-REVOLT\src\java\controlador\CantidadUsuariosServlet.java
+2026.01.15 22:06:26 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Proyecto-Revolt-HDD\I-REVOLT\src\java\controlador\CantidadUsuariosServlet.java. Using fallback presentation compiler.
+2026.01.15 22:06:28 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Proyecto-Revolt-HDD\I-REVOLT\src\java\controlador\CantidadUsuariosServlet.java. Using fallback presentation compiler.
+ene. 15, 2026 10:06:28 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 15
+ene. 15, 2026 10:06:28 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 12
+2026.01.15 22:06:28 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Proyecto-Revolt-HDD\I-REVOLT\src\java\controlador\CantidadUsuariosServlet.java. Using fallback presentation compiler.
+2026.01.15 22:06:28 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Proyecto-Revolt-HDD\I-REVOLT\src\java\controlador\CantidadUsuariosServlet.java. Using fallback presentation compiler.
+2026.01.15 22:06:29 INFO  time: code lens generation in 1.3s
+2026.01.15 22:06:30 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Proyecto-Revolt-HDD\I-REVOLT\src\java\conexion\Conexion.java
+2026.01.15 22:06:30 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Proyecto-Revolt-HDD\I-REVOLT\src\java\conexion\Conexion.java. Using fallback presentation compiler.
+2026.01.15 22:06:30 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Proyecto-Revolt-HDD\I-REVOLT\src\java\conexion\Conexion.java. Using fallback presentation compiler.
+2026.01.15 22:06:40 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Proyecto-Revolt-HDD\I-REVOLT\src\java\conexion\Conexion.java. Using fallback presentation compiler.
+2026.01.15 22:06:41 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Proyecto-Revolt-HDD\I-REVOLT\src\java\conexion\Conexion.java. Using fallback presentation compiler.
+2026.01.15 22:06:41 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Proyecto-Revolt-HDD\I-REVOLT\src\java\controlador\CantidadUsuariosServlet.java
+2026.01.15 22:06:41 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Proyecto-Revolt-HDD\I-REVOLT\src\java\controlador\CantidadUsuariosServlet.java. Using fallback presentation compiler.
+2026.01.15 22:06:41 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Proyecto-Revolt-HDD\I-REVOLT\src\java\controlador\CantidadUsuariosServlet.java. Using fallback presentation compiler.
+2026.01.15 22:06:41 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Proyecto-Revolt-HDD\I-REVOLT\src\java\controlador\CantidadUsuariosServlet.java. Using fallback presentation compiler.
+2026.01.15 22:06:42 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Proyecto-Revolt-HDD\I-REVOLT\src\java\controlador\CantidadUsuariosServlet.java. Using fallback presentation compiler.
+2026.01.15 22:06:43 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Proyecto-Revolt-HDD\I-REVOLT\src\java\controlador\CantidadUsuariosServlet.java. Using fallback presentation compiler.
+ene. 15, 2026 10:06:44 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 40
+2026.01.15 22:06:46 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Proyecto-Revolt-HDD\I-REVOLT\src\java\controlador\CantidadUsuariosServlet.java. Using fallback presentation compiler.
+2026.01.15 22:06:46 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Proyecto-Revolt-HDD\I-REVOLT\src\java\controlador\ClienteServlet2.java
+2026.01.15 22:06:46 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Proyecto-Revolt-HDD\I-REVOLT\src\java\controlador\ClienteServlet2.java. Using fallback presentation compiler.
+2026.01.15 22:06:47 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Proyecto-Revolt-HDD\I-REVOLT\src\java\controlador\ClienteServlet2.java. Using fallback presentation compiler.
+ene. 15, 2026 10:06:48 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 47
+2026.01.15 22:06:48 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Proyecto-Revolt-HDD\I-REVOLT\src\java\controlador\ClienteServlet2.java. Using fallback presentation compiler.
+ene. 15, 2026 10:06:48 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 50
+2026.01.15 22:06:48 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Proyecto-Revolt-HDD\I-REVOLT\src\java\controlador\ClienteServlet2.java. Using fallback presentation compiler.
+2026.01.15 22:06:48 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Proyecto-Revolt-HDD\I-REVOLT\src\java\controlador\ClienteServlet2.java. Using fallback presentation compiler.
+ene. 15, 2026 10:06:49 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 52
+2026.01.15 22:06:49 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Proyecto-Revolt-HDD\I-REVOLT\src\java\controlador\ClienteServlet2.java. Using fallback presentation compiler.
+ene. 15, 2026 10:06:49 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 54
+ene. 15, 2026 10:06:49 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 51
+2026.01.15 22:06:59 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Proyecto-Revolt-HDD\I-REVOLT\src\java\controlador\ClienteServlet2.java. Using fallback presentation compiler.

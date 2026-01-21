@@ -1,15 +1,13 @@
 # Proyecto-Revolt-HDD
 
-#### Proyecto Tienda Web de ropa Online - REVOLT
-
 ![Logo REVOLT](logo.png "Logo REVOLT")
 
-## Inte grantes
+## Integrantes
 
 | APELLIDOS Y NOMBRES                       | CÓDIGO    |
 |-------------------------------------------|-----------|
-| Angel Abel Garcia Valladolid              | U22229946 |
-|  Guzmán Támara Bequer Reynaldo            | U23238030 |
+| Angel Abel García Valladolid              | U22229946 |
+| Guzmán Támara Bequer Reynaldo             | U23238030 |
 | Ian Angelo Andrade Gamio                  | U22235933 |
 | Karina Rocio Arias Patiño                 | U23235234 |
 | Flores Carreon, Martin Francisco          | U21205693 |
@@ -39,19 +37,19 @@
 ## 🌟 Introducción
 <br>
 <div style="text-align: justify;">
-El comercio electrónico de ropa ha explotado 📈, pero muchas tiendas aún luchan con interfaces lentas y procesos complicados. Este proyecto desarrolla una **tienda online innovadora** que prioriza la experiencia del usuario, gestión inteligente de inventario y entregas rápidas para maximizar ventas y fidelidad de clientes. ¡Prepárate para una solución moderna y escalable! 🛍️
+El comercio electrónico de ropa ha explotado 📈, pero muchas tiendas aún luchan con interfaces lentas y procesos complicados. Este proyecto desarrolla una tienda online innovadora que prioriza la experiencia del usuario, gestión inteligente de inventario y entregas rápidas para maximizar ventas y fidelidad de clientes. ¡Prepárate para una solución moderna y escalable! 🛍️
 </div>
 
 ## 🏪 Contexto del Negocio
 <br>
 <div style="text-align: justify;">
-Una tienda de ropa minorista en crecimiento necesita un **sistema e-commerce** que gestione catálogo por categorías, tallas y colores. El flujo clave: navegación → carrito → pago → pedido confirmado, todo optimizado para aumentar conversiones y reducir abandonos. Perfecto para competir en el mercado digital actual. 💼
+Una tienda de ropa minorista en crecimiento necesita un sistema e-commerce que gestione catálogo por categorías, tallas y colores. El flujo clave: navegación → carrito → pago → pedido confirmado, todo optimizado para aumentar conversiones y reducir abandonos. Perfecto para competir en el mercado digital actual. 💼
 </div>
 
 ## ⚠️ Planteamiento del Problema
 <br>
 <div style="text-align: justify;">
-**Problemas actuales:** Inventario desactualizado, carritos abandonados (70% promedio), falta de personalización y procesos manuales que frenan el crecimiento. Resultado: ventas perdidas y clientes insatisfechos. ¡Es hora de automatizar y digitalizar! 🚨
+Problemas actuales:Inventario desactualizado, carritos abandonados (70% promedio), falta de personalización y procesos manuales que frenan el crecimiento. Resultado: ventas perdidas y clientes insatisfechos. ¡Es hora de automatizar y digitalizar! 🚨
 </div>
 
 ## 🎯 Objetivos del Proyecto
@@ -59,7 +57,7 @@ Una tienda de ropa minorista en crecimiento necesita un **sistema e-commerce** q
 ### 🎖️ Objetivo General
 <br>
 <div style="text-align: justify;">
-Crear una tienda web de ropa **intuitiva, segura y escalable** que impulse ventas mediante gestión real-time de stock, pagos fluidos y recomendaciones personalizadas. ¡Transformar clics en clientes leales! 💰
+Crear una tienda web de ropa intuitiva, segura y escalable que impulse ventas mediante gestión real-time de stock, pagos fluidos y recomendaciones personalizadas. ¡Transformar clics en clientes leales! 💰
 </div>
 
 ### 📋 Objetivos Específicos
@@ -75,13 +73,13 @@ Crear una tienda web de ropa **intuitiva, segura y escalable** que impulse venta
 ## 📏 Alcance del Proyecto
 <br>
 <div style="text-align: justify;">
-**Incluye:** Catálogo, carrito, autenticación, pagos, pedidos y reportes básicos. **Excluye:** App móvil nativa y IA avanzada (fase 2). Enfoque ágil con **4 sprints** para entregas incrementales. ✅
+Incluye: Catálogo, carrito, autenticación, pagos, pedidos y reportes básicos. Excluye: App móvil nativa y IA avanzada (fase 2). Enfoque ágil con 4 sprints para entregas incrementales. ✅
 </div>
 
 ## 💡 Justificación del Proyecto
 <br>
 <div style="text-align: justify;">
-**Organizacional:** Canal 24/7 para más ventas. **Técnica:** Prácticas ágiles + herramientas modernas (Git, CI/CD, Docker). **Académica:** Cumple con curso de Herramientas de Desarrollo UTP. ¡Valor real desde el día 1! 📚🏢
+La implementación de esta tienda en línea de ropa responde a la necesidad estratégica de digitalizar el canal de ventas, ampliando la cobertura de mercado 24/7 y reduciendo costos operativos mediante automatización de procesos. Técnicamente aplica herramientas modernas (Git) y metodología Scrum conforme al curso "Herramientas de Desarrollo" UTP 2026, generando evidencias académicas alineadas con la rúbrica de evaluación (APF1-APF4). La arquitectura escalable posiciona a la organización como referente tecnológico en el retail peruano, resolviendo problemáticas inmediatas y preparando futuras expansiones. 📚🏢
 </div>
 
 
@@ -90,4 +88,5 @@ Crear una tienda web de ropa **intuitiva, segura y escalable** que impulse venta
 |ARCHIVO                |URL                                                                                  |
 |-----------------------|-------------------------------------------------------------------------------------|
 | Formato Proyecto      | [Word Online](https://utpedupe-my.sharepoint.com/:w:/g/personal/u21205693_utp_edu_pe/IQCdOTOQRNv2Sry0zX2bhzx_AdtegYEJdcfplFLv_fB_4hQ?e=CUjlnf) |
+| Presentación Proyecto | [PPT Online](https://utpedupe-my.sharepoint.com/:p:/g/personal/u21205693_utp_edu_pe/IQA08l3HQDMMQJRuLzLxI9xaATYY_e5bmvME_UIfADED6ko?e=QuyLut) |
 ..
