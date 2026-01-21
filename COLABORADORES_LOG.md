@@ -35,7 +35,7 @@ git pull origin main
 ```bash
 git checkout -b ramaAngelGarcia
 ```
-![Evidencia checkout rama](img/mejora-01-boton-busqueda.png)
+![Evidencia checkout rama](docs/img/mejora-01-boton-busqueda.png)
 
 #### 3️⃣ Análisis realizado - Mejoras identificadas (7 puntos)
 
@@ -124,22 +124,22 @@ git push origin ramaAngelGarcia
 #### Capturas de Pantalla
 
 **1. Botón de Búsqueda - Aria Label:**
-![Mejora botón búsqueda](img/mejora-01-boton-busqueda.png)
+![Mejora botón búsqueda](docs/img/mejora-01-boton-busqueda.png)
 
 **2. Carrito de Compras - Aria Label:**
-![Mejora carrito](img/mejora-02-carrito-aria.png)
+![Mejora carrito](docs/img/mejora-02-carrito-aria.png)
 
 **3. Sección Administrativa - Antes:**
-![Navegación admin antes](img/mejora-03-nav-admin-antes.png)
+![Navegación admin antes](docs/img/mejora-03-nav-admin-antes.png)
 
 **4. Sección Administrativa - Después:**
-![Navegación admin después](img/mejora-04-nav-admin-despues.png)
+![Navegación admin después](docs/img/mejora-04-nav-admin-despues.png)
 
 **5. Botones del Carrusel - Aria Labels:**
-![Botones carrusel](img/mejora-05-carrusel-botones.png)
+![Botones carrusel](docs/img/mejora-05-carrusel-botones.png)
 
 **6. Corrección Tipográfica:**
-![Corrección typo](img/mejora-06-typo-vendidos.png)
+![Corrección typo](docs/img/mejora-06-typo-vendidos.png)
 
 
 ### ✅ Checklist de Calidad
