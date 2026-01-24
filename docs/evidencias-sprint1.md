@@ -129,6 +129,7 @@ git push origin ianandrade
 
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ## ✅ 3) Pull Requests obligatorios
 - Se creó al menos 1 PR desde una rama `feature/*` hacia `main`.
@@ -322,3 +323,5 @@ git push origin ramaAngelGarcia
 Sprint 1 completado: el repositorio está listo para trabajo en equipo con PR, reglas, plantillas y documentación.
 =======
 >>>>>>> origin/ian-docs
+=======
+>>>>>>> origin/ianandrade

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## 📸 Evidencias Sprint 1
 
 
@@ -66,3 +67,6 @@ Refactorización: Migración a HTML5 semántico en las vistas del blog.
 
 Localización: Traducción y corrección ortográfica de la interfaz de usuario al español.
 >>>>>>> origin/ian-docs
+=======
+## 📸 Evidencias
+>>>>>>> origin/ianandrade
