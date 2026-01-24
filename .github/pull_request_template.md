@@ -10,7 +10,8 @@
 
 [x] Trazabilidad de Versiones: Registro visual comparativo entre la versión inicial (v1) y la versión organizada (v2) del apartado de blog para demostrar la mejora en la arquitectura de archivos.
 
-=======
+---
+
 Cambios:
 
 - [x] Validación Estructural: Corrección del cierre de la etiqueta y limpieza de librerías duplicadas para cumplir con estándares W3C.
