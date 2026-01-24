@@ -8,4 +8,5 @@ Preparación de entorno en NetBeans 17 con Tomcat.
 - **Actividad:** Validación técnica de entorno y gestión de evidencias.
 - **Detalle:** Verificación de compatibilidad en NetBeans 20, validación de la estructura del proyecto y captura de interfaces para el Word/PPT.
 - **Fecha:** 20/01/2026
-main
+
+---
